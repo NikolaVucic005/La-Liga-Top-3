@@ -42,7 +42,6 @@ Ensures full responsiveness across all screen sizes.
 
 Contributions are welcome! Feel free to fork the repository, make updates, and submit a pull request.
 
-Contact
 Created by Nikola Vucic. For feedback or questions, feel free to reach out via GitHub Discussions or Issues.
 
 *Thanks for checking out La Liga Top 3!*
