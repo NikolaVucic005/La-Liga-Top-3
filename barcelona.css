@@ -1,0 +1,73 @@
+header{
+    text-align:center;
+    background-color:yellow;
+    padding:1px;
+}
+.barca_table_container{
+    display:flex;
+    justify-content:center;
+    text-align:center;    
+}
+.h1_table{
+    text-align:center;
+}
+.gallery .photos img{
+    width:250px;
+}
+.gallery .photos{
+    text-align:center;
+}
+.gallery{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+    justify-content:center;
+}
+.gallery .photos .names:hover{
+    box-shadow:5px 5px 5px rgb(246, 21, 21);
+}
+.position{
+    text-align:center;
+}
+#starting{
+    text-decoration:underline;
+}
+.games .teams img{
+    width:200px;
+    height:200px;
+}
+.games{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+    justify-content:center;
+}
+.games .teams{
+    text-align:center;
+}
+.teams_together{
+    display:flex;
+    box-shadow:0px 5px 10px blue;
+    padding:5px;
+}
+.photos .names{
+    box-shadow:5px 5px 5px red;
+}
+@media screen and (max-width:991px){
+    .gallery .photos img{
+        width:240px;
+    }
+    body{
+        text-align:center;
+    }
+}
+@media screen and (max-width:767px){
+    .gallery img{
+        width:230px;
+    }
+}
+@media screen and (max-width:575px){
+    .gallery img{
+        width:220px;
+    }
+}

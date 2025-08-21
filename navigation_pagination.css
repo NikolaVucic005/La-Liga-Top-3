@@ -1,0 +1,65 @@
+body{
+    padding:0px;
+    margin:0px;
+}
+.navbar ul{
+    list-style-type:none;
+    background-color:rgb(192, 186, 186);
+    padding:0px;
+    margin:0px;
+    text-align:center;
+    overflow:hidden;
+}
+.navbar a{
+    text-decoration:none;
+    color:black;
+    display:block;
+    padding:15px;
+}
+.navbar a:hover{
+    background-color:rgb(200, 199, 199);
+}
+.navbar li{
+    float:left;
+}
+.dropdown{
+    display:flex;
+}
+.dropdown button{
+    border:none;
+    cursor:pointer;
+    padding:15.7px;
+    font-size:15.1px;
+    background-color:rgb(192, 186, 186);
+    position:relative;
+}
+.dropdown .contact:hover button{
+    background-color:rgb(200, 199, 199);
+}
+.dropdown .container{
+    position:absolute;
+    background-color:rgb(192, 186, 186);
+}
+.dropdown a{
+    display:none;
+}
+.dropdown .contact:hover a{
+    display:block;
+}
+.pagination{
+    text-align:center;
+}
+.pagination a{
+    display:inline-block;
+    padding:8px 15px;
+    color:black;
+    text-decoration:none;
+}
+.pagination a.active{
+    background-color:darkgreen;
+    border-radius:5px;
+}
+.pagination a:hover:not(.active){
+    background-color:gray;
+    border-radius:5px;
+}

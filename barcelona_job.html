@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="barcelona_navigation_pagination.css">
+    <link rel="stylesheet" href="barcelona_job.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="fonts.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="barcelona.html">Home</a></li>
+            <li><a href="barcelona_history.html">Modern Club History</a></li>
+            <li><a href="barcelona_trophies.html">Trophy Cabinet</a></li>
+            <li><a href="barcelona_legends.html">Club Legends</a></li>
+            <li><a href="barcelona_job.html">Job Application</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="form_container">
+            <div class="catalonia_flag klubovi">
+                <img src="barcelona/Flag_of_Catalonia.svg.png" alt="Catalonia" title="Catalonia">
+            </div>        
+            <form action="#" method="post">
+                <h1>Job Application</h1>
+                <div class="name_conteiner kontejneri">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="Name" placeholder="Enter your name" required>
+                </div><br>
+
+                <div class="email_container kontejneri">
+                    <label for="e-mail_adress">E-mail adress</label>
+                    <input type="email" id="e-mail_adress" name="e-mail_adress" required placeholder="Enter your E-mail adress">
+                </div><br>
+
+                <div class="phone_number kontejneri">
+                    <label for="phone">Phone number</label>
+                    <input type="tel" id="phone" name="tel" required placeholder="Enter your phone number">
+                </div><br>
+
+                <div class="gender kontejneri">
+                    <label for="gender_pick">Gender:</label>             
+                    <div class="male">
+                        <label for="male_gender">Male</label>
+                        <input type="radio" name="gender" id="male_gender" value="male" required>
+                    </div>
+
+                    <div class="female">
+                        <label for="female_gender">Female</label>
+                        <input type="radio" name="gender" id="female_gender" value="female">
+                    </div>
+                </div><br>
+
+                <div class="country kontejneri">
+                    <label for="country_pick">Country</label>
+                    <select required id="country_pick" name="country">
+                        <option value="France">France</option>
+                        <option value="Spain">Spain</option>
+                        <option value="UK">United Kingdom</option>
+                        <option value="Germany">Germany</option>
+                        <option value="Italy">Italy</option>
+                        <option value="Serbia">Serbia</option>
+                    </select>
+                </div><br>
+                
+                <div class="salary kontejneri">
+                    <label for="salary_expectation">Expected Salary(in Euros)</label>
+                    <input type="number" name="salary" id="salary_expectation" required min="500" max="1500" placeholder="Salary">
+                </div><br>
+
+                <div class="conditions kontejneri">
+                    <label for="terms_and_conditions">I have read and i accept terms and conditions of job application</label>
+                    <input type="checkbox" id="terms_and_conditions" name="conditions" required>
+                </div><br>
+
+                <input type="submit">
+                <input type="reset">
+            
+            </form>
+        
+            <div class="barcelona_flag klubovi">
+                <img id="" src="barcelona/barcelona.jpg" alt="Barcelona" title="Barcelona">
+            </div>
+
+        </div>
+
+    </main>
+</body>
+</html>

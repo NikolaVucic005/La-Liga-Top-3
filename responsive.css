@@ -1,0 +1,61 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+@media screen and (max-width:991px){
+    h1{
+        font-size:28px;
+    }
+    h2{
+        font-size:22px;
+    }
+    h3{
+        font-size:17px;
+    }
+    .navbar a{
+        font-size:14px;
+    }
+    .dropdown button{
+        font-size:13px;
+    }
+    .navbar li{
+        float:none;
+    }
+    .dropdown{
+        display:inline-block;
+    }
+}
+@media screen and (max-width:767px){
+    h1{
+        font-size:27px;
+    }
+    h2{
+        font-size:21px;
+    }
+    h3{
+        font-size:16px;
+    }
+    .navbar a{
+        font-size:13px;
+    }
+    .dropdown button{
+        font-size:12px;
+    }
+}
+@media screen and (max-width:575px){
+    h1{
+        font-size:26px;
+    }
+    h2{
+        font-size:20px;
+    }
+    h3{
+        font-size:15px;
+    }
+    .navbar a{
+        font-size:12px;
+    }
+    .dropdown button{
+        font-size:11px;
+    }
+}

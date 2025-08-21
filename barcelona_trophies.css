@@ -1,0 +1,28 @@
+.trophies_container img{
+    width:250px;
+}
+.trophies_container{
+    display:flex;
+    flex-direction:column;
+}
+.trophies_container .trophies img{
+    float:left;
+}
+.trophies_container .trophies{
+    box-shadow:0px 5px 10px gray;
+}
+@media screen and (max-width:991px){
+    .trophies_container img{
+        width:240px;
+    }
+}
+@media screen and (max-width:767px){
+    .trophies_container img{
+        width:230px;
+    }
+}
+@media screen and (max-width:575px){
+    .trophies_container img{
+        width:220px;
+    }
+}

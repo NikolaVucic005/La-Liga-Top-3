@@ -1,0 +1,68 @@
+h1{
+    text-align:center;
+}
+.transfer img{
+    width:280px;
+    height:180px;
+}
+.list li{
+    font-family:'Verdana', sans-serif;
+}
+.transfer_container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+}
+h2{
+    text-align:center;
+}
+.transfer_container .transfer{
+    display:flex;
+    flex-direction:column;
+    box-shadow:0px 5px 10px blue;
+    
+}
+.transfer_container .transfer:hover{
+    animation:box_animation;
+    animation-duration:5s;
+    animation-iteration-count:infinite;
+}
+@keyframes box_animation{
+    25%{
+        box-shadow:0px 5px 10px red;
+    }
+    50%{
+        box-shadow:0px 5px 10px rgb(185, 183, 183);
+    }
+}
+header h1{
+    text-decoration:underline;
+}
+@media screen and (max-width:991px){
+    .list li{
+        font-size:15px;
+    }
+    .transfer img{
+        width:270px;
+        height:170px;
+    }
+}
+@media screen and (max-width:767px){
+    .list li{
+        font-size:14px;
+    }
+    .transfer img{
+        width:260px;
+        height:160px;
+    }
+}
+@media screen and (max-width:575px){
+    .list li{
+        font-size:13px;
+    }
+    .transfer img{
+        width:250px;
+        height:150px;
+    }
+}

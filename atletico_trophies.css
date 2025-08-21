@@ -1,0 +1,71 @@
+.trophy img{
+    width:250px;
+    height:250px;
+    padding:20px;
+}
+.trophies{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:30px;
+}
+.paragraph{
+    font-size:14px;
+}
+.trophy{
+    text-align:center;
+}
+.trophy_container{
+    display:flex;
+    box-shadow:0px 5px 15px red;
+    width:350px;
+    justify-content:center;
+}
+.trophy_container img:hover{
+    animation:zoom;
+    animation-duration:5s;
+    animation-iteration-count:infinite;
+    cursor:pointer;
+}
+@keyframes zoom{
+    50%{transform:scale(1.1,1.1);}
+}
+h1,h2{
+    text-align:center;
+}
+h2{
+    text-decoration:underline;
+}
+#division{
+    align-self:flex-end;
+}
+#division2{
+    align-self:flex-end;
+}
+@media screen and (max-width:991px){
+    .trophy img{
+        width:240px;
+        height:240px;
+    }
+    p{
+        font-size:15px;
+    } 
+}
+@media screen and (max-width:767px){
+    .trophy img{
+        width:230px;
+        height:230px;
+    }
+    p{
+        font-size:14px;
+    }
+}
+@media screen and (max-width:575px){
+    .trophy img{
+        width:220px;
+        height:220px;
+    }
+    p{
+        font-size:13px;
+    }
+}

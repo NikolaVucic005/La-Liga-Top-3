@@ -1,0 +1,58 @@
+.squad img{
+    width:250px;
+    height:250px;
+}
+.squad{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+    justify-content:center;
+}
+.squad_list h3{
+    text-align:center;
+}
+h2{
+    text-align:center;
+}
+p{
+    font-size:20px;
+}
+.squad h3{
+    box-shadow:0px 5px 10px blue;
+}
+.staff h3{
+    box-shadow:0px 5px 10px red;
+}
+.squad_list .management{
+    text-decoration:underline;
+}
+header{
+    text-align:center;
+}
+@media screen and (max-width:991px){
+    .squad img{
+        width:240px;
+        height:240px;
+    }
+    p{
+        font-size:19px;
+    }
+}
+@media screen and (max-width:767px){
+    .squad img{
+        width:230px;
+        height:230px;
+    }
+    p{
+        font-size:18px;
+    }
+}
+@media screen and (max-width:575px){
+    .squad img{
+        width:220px;
+        height:220px;
+    }
+    p{
+        font-size:17px;
+    }
+}

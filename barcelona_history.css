@@ -1,0 +1,34 @@
+body{
+    background-color:#800020;
+}
+.title{
+    text-align:center;
+}
+.photos{
+    display:flex;
+    justify-content:center;
+}
+.photos img{
+    width:100%;
+}
+.history{
+    text-align:center;
+}
+.history p{
+    color:gray;
+}
+@media screen and (max-width:991px){
+    p{
+        font-size:15px;
+    }
+}
+@media screen and (max-width:767px){
+    p{
+        font-size:14px;
+    }
+}
+@media screen and (max-width:575px){
+    p{
+        font-size:13px;
+    }
+}

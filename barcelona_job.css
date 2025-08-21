@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(255,245,180);
+}
+.form_container{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    height:90vh;
+    align-items:center;
+}
+.form_container img{
+    width:350px;
+    height:350px;
+}
+@media screen and (max-width:991px){
+    .form_container img{
+        width:340px;
+        height:340px;
+    }
+}
+@media screen and (max-width:767px){
+    .form_container img{
+        width:330px;
+        height:330px;
+    }
+}
+@media screen and (max-width:575px){
+    .form_container img{
+        width:320px;
+        height:320px;
+    }
+}

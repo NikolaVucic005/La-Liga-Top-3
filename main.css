@@ -1,0 +1,165 @@
+.gallery img{
+    width:237px;
+}
+.gallery{
+    display:flex;
+    height:50.6vh;
+    justify-content:center;
+    gap:20px;
+}
+.gallery .clubs{
+    border-style:solid;
+    text-align:center;
+    height:290px;
+}
+.h3_element{
+    font-size:20px;
+}
+.gallery .clubs:hover{
+    border-color:gold;
+    cursor:pointer;
+    animation:anim;
+    animation-duration:5s;
+    animation-timing-function:ease-out;
+}
+@keyframes anim{
+    50%{transform:rotateY(360deg);}
+}
+@keyframes  anim2{
+    20%{border-color:orange;}
+    40%{border-color:yellow;}
+    60%{border-color:yellowgreen;}
+    80%{border-color:rgb(218, 218, 170)}
+    100%{border-color:gray;}
+}
+@keyframes anim3{
+    50%{transform:scale(2,2)}
+}
+@keyframes anim4{
+    50%{opacity:0.0;}
+}
+.gallery .clubs{
+    width:25%;
+}
+.gallery .list{
+    width:25%;
+}
+.gallery .list2{
+    width:25%;
+}
+.gallery .list3{
+    width:25%;
+}
+.list li::after{
+    content:"✅"
+}
+.list a:hover{
+    color:red;
+}
+.list a:active{
+    color:yellow;
+}
+.list a:visited{
+    color:gray;
+}
+.gallery ul li{
+    font-size:18px;
+}
+.gallery .lists h1::selection{
+    background-color:black;
+    color:darkgreen;
+}
+.gallery .lists h3{
+    box-shadow:0px 5px 10px gray;
+    text-align:center;
+}
+.list2 #running::after{
+    content:"🏃‍♂️";
+}
+.list2 #crossfit::after{
+    content:"🏋️‍♀️"
+}
+.list2 #chess::after{
+    content:"♟"
+}
+.list2 #tv::after{
+    content:"🎬"
+}
+.navigation ul{
+    list-style-type:none;
+    margin:0px;
+    padding:0px;
+    background-color:darkslateblue;
+    text-align:center;
+}
+.navigation a{
+    text-decoration:none;
+    color:black;
+    display:block;
+    padding:15px;
+}
+.navigation a:hover{
+    background-color:rgb(87, 74, 175);
+}
+header{
+    text-align:center;
+    background-color:rgb(211, 206, 206);
+    padding:1px;
+}
+footer{
+    text-align:center;
+    background-color:rgb(110, 99, 188);
+    padding:1px;
+}
+@media screen and (max-width:991px){
+    .gallery .clubs{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        border:none;
+    }
+    .gallery{
+        height:100%;
+        flex-direction:column;
+    }
+    .gallery img{
+        width:227px;
+    }
+    .gallery ul li{
+        font-size:17px;
+    }
+    .navigation li{
+        font-size:15px;
+    }
+    .h3_element{
+        font-size:19px;
+    }
+}
+@media screen and (max-width:767px){
+    .gallery img{
+        width:217px;
+    }
+    .gallery ul li{
+        font-size:16px;
+    }
+    .navigation li{
+        font-size:14px
+    }
+    .h3_element{
+        font-size:18px;
+    }
+}
+@media screen and (max-width:575px){
+    .gallery img{
+        width:207px;
+    }
+    .gallery ul li{
+        font-size:15px;
+    }
+    .navigation li{
+        font-size:13px;
+    }
+    .h3_element{
+        font-size:17px;
+    }
+}

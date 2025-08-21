@@ -1,0 +1,41 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+nav ul{
+    list-style-type:none;
+    padding:0px;
+    margin:0px;
+    background-color: #C62828;
+    text-align:center;
+    overflow:hidden;
+}
+nav a{
+    text-decoration:none;
+    color:black;
+    display:block;
+    padding:15px;
+}
+nav a:hover{
+    background-color:#d03030
+}
+nav li{
+    float:left;
+}
+.pagination{
+    text-align:center;
+}
+.pagination a{
+    text-decoration:none;
+    color:black;
+    display:inline-block;
+    padding:8px 15px;
+}
+.pagination a.active{
+    background-color:darkgreen;
+    border-radius:5px;
+}
+.pagination a:hover:not(.active){
+    background-color:gray;
+    border-radius:5px;
+}

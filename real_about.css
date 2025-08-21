@@ -1,0 +1,70 @@
+.title{
+    border:solid;
+    width:190px;
+    text-align:center;
+}
+.title_container{
+    display:flex;
+    justify-content:center;
+}
+p{
+    font-family:georgia;
+    font-size:20px;
+}
+.trophy_cabinet img{
+    width:200px;
+}
+.trophies{
+    border:solid;
+    width:130px;
+    text-align:center;
+    padding:2px;
+}
+.trophy_cabinet{
+    display:flex;
+    justify-content:center;
+    gap:5px;
+    flex-wrap:wrap;
+}
+.trophy_cabinet .trophy{
+    text-align:center;
+}
+.stadium{
+    border:solid;
+    width:125px;
+    text-align:center;
+}
+.bernabeu img{
+    width:100%;
+}
+.main_list ul{
+    text-align:center;
+    list-style-type:none;
+    font-size:large;
+    display:block;
+    padding:15px;
+}
+@media screen and (max-width:991px){
+    p{
+        font-size:19px;
+    }
+    ul li{
+        font-size:17px;
+    }
+}
+@media screen and (max-width:767px){
+    p{
+        font-size:18px;
+    }
+    ul li{
+        font-size:16px;
+    }
+}
+@media screen and (max-width:575px){
+    p{
+        font-size:17px;
+    }
+    ul li{
+        font-size:15px;
+    }
+}

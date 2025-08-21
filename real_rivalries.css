@@ -1,0 +1,85 @@
+body{
+    padding:0px;
+    margin:0px;
+}
+.rivalry_main{
+    display:flex;
+    gap:35px;
+    justify-content:center;
+}
+.rivalry_main h2{
+    display:flex;
+    align-items:center;
+}
+.rivalry_main .rivalry img{
+    width:250px;
+    height:250px;
+}
+.rivalry_main h3{
+    text-align:center;
+}
+.games{
+    display:flex;
+    justify-content:center;
+}
+.games ul{
+    font-size:18px;
+}
+.games .list #games::before{
+    content:"🏟️"
+}
+.rivalry_main .games{
+    box-shadow:0px 5px 10px gray;
+    width:400px;
+    text-align:center;
+}
+.games ul{
+    list-style-type:none;
+}
+.games .list #encounter::before{
+    content:"📅"
+}
+.games .list #real::before{
+    content:"🏆"
+}
+.games .list #rival::before{
+    content:"🎯"
+}
+h1{
+    text-align:center;
+}
+#rivalry_title{
+    box-shadow:0px 5px 10px gold;
+    padding:3px;
+}
+p{
+    font-size:18px;
+    text-align:center;
+}
+@media screen and (max-width:991px){
+    .rivalry_main .rivalry img{
+        width:240px;
+        height:240px;
+    }
+    p{
+        font-size:17px;
+    }
+}
+@media screen and (max-width:767px){
+   .rivalry_main .rivalry img{
+        width:230px;
+        height:230px;
+   }
+   p{
+    font-size:16px;
+   }
+}
+@media screen and (max-width:575px){
+    .rivalry_main .rivalry img{
+        width:220px;
+        height:220px;
+    }
+    p{
+        font-size:15px;
+    }
+}
