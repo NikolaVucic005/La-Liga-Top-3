@@ -1,7 +1,7 @@
 # La Liga Top 3
 
 **La Liga Top 3** is a simple, static webpage showcasing the top three football clubs in Spain’s La Liga. Built using HTML and CSS, this project highlights key information and visual styling for 
-Atlético Madrid, FC Barcelona, and Real Madrid.
+Atletico Madrid, FC Barcelona, and Real Madrid.
 
 # Project Overview
 
