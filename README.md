@@ -30,18 +30,21 @@ Open main.html in your preferred browser—or navigate through the structure to 
 # Features & Structure
 Central main page (main.html) linking to:
 
--Atletico Madrid (atletico.html)
+- Atletico Madrid (atletico.html)
 
--FC Barcelona (barcelona.html)
+- FC Barcelona (barcelona.html)
 
--Real Madrid (real.html)
+- Real Madrid (real.html)
 
 Each club page is styled with its specific stylesheet (atletico.css, barcelona.css, real.css).
 
 Ensures full responsiveness across all screen sizes.
 
+# Contributing
+
 Contributions are welcome! Feel free to fork the repository, make updates, and submit a pull request.
 
+# Contact
 Created by Nikola Vucic. For feedback or questions, feel free to reach out via GitHub Discussions or Issues.
 
 *Thanks for checking out La Liga Top 3!*
